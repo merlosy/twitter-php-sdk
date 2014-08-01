@@ -6,10 +6,7 @@
 
 /* Load required lib files. */
 session_start();
-// require_once('twitteroauth/twitteroauth.php');
-// require_once('../src/Merlosy/TwitterPhpSdk/TwitterOAuth.php');
-// use TwitterOAuth;
-require_once('../src/config/config.php');
+require_once('config.php');
 
 /* If access tokens are not available redirect to connect page. */
 if (empty($_SESSION['access_token']) || empty($_SESSION['access_token']['oauth_token']) || empty($_SESSION['access_token']['oauth_token_secret'])) {

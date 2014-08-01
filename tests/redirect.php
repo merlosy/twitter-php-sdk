@@ -2,10 +2,7 @@
 
 /* Start session and load library. */
 session_start();
-// require_once('twitteroauth/twitteroauth.php');
-// use TwitterOAuth;
-// require_once('../src/Merlosy/TwitterPhpSdk/TwitterOAuth.php');
-require_once('../src/config/config.php');
+require_once('config.php');
 
 /* Build TwitterOAuth object with client credentials. */
 $connection = new Twitter\TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);

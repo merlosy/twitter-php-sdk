@@ -7,7 +7,7 @@
 
 /* Start session and load lib */
 session_start();
-require_once('../src/config/config.php');
+require_once('config.php');
 
 /* If the oauth_token is old redirect to the connect page. */
 if (isset($_REQUEST['oauth_token']) && $_SESSION['oauth_token'] !== $_REQUEST['oauth_token']) {
