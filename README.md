@@ -13,8 +13,10 @@ It also includes a example of workflow to authenticate from a website.
 Incoming:
  - simplified workflow to retrieve info
 
-[abraham/twitteroauth]:https://github.com/abraham/twitteroauth
-
 ### Feedback appreciated 
 Contact me on [GitHub]
+
 Twitter @Merlosyj
+
+[abraham/twitteroauth]:https://github.com/abraham/twitteroauth
+[GitHub]:https://github.com/merlosy
