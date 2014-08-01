@@ -1,0 +1,27 @@
+{
+    "name": "merlosy/twitter-php-sdk",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jeremy Legros",
+            "email": "jeremy.legros@live.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "abraham/twitteroauth": "dev-master",
+        "facebook/php-sdk-v4" : "~4.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Merlosy\\TwitterPhpSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
