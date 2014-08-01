@@ -6,8 +6,8 @@
  http://localhost/twitter-php-sdk/workbench/merlosy/twitter-php-sdk/tests/
  */
 
-define('CONSUMER_KEY', 'TJRApwp451DUr9ljRV0Zi1d16');
-define('CONSUMER_SECRET', 'TDWwBrwagUMDc8BgzFhTUIhVzDC6iwGK27kpUmVaA3bWN2fa2i');
+define('CONSUMER_KEY', '');
+define('CONSUMER_SECRET', '');
 define('OAUTH_CALLBACK', 'http://localhost/twitter-php-sdk/workbench/merlosy/twitter-php-sdk/tests/callback.php');
 
 
